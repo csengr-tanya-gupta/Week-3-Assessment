@@ -1,0 +1,19 @@
+package com.capgemini.java_advanced.framework.spring.core;
+
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class Product implements Serializable {
+	
+	private int id;
+	private String name;
+	
+	private int price;
+	
+}
